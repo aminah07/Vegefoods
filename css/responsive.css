@@ -1,0 +1,606 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .container{
+    width: 90%;
+  }
+  /*.navbar{
+    display: none;
+  }*/
+  .first, .middle, .last{
+    display: block;
+    width: 100%;
+    margin-bottom: 13px;
+  }
+  .top-header{
+    padding: 26px 0px;
+  }
+  .top-header span{
+    font-size: 11px;
+  }
+  .banner{
+    height: 50vh;
+  }
+  .banner-content{
+    margin-top: 90px;
+  }
+  .banner-content h1{
+    font-size: 74px;
+  }
+  .banner-content p{
+    font-size: 15px;
+    margin-top: -20px;
+  }
+  .banner-btn{
+    margin-top: -20px;
+  }
+  .line{
+    margin-top: 20px;
+  }
+  .f-item{
+    margin-bottom: 24px;
+  }
+  .item-content a{
+    padding: 7px 11px;
+    font-size: 11px;
+  }
+  .item-content img{
+    height: 200px;
+  }
+  .second h3{
+    font-size: 23px;
+  }
+  .second p{
+    font-size: 13px;
+  }
+  .fc-gallery{
+    display: flex;
+    flex-direction: row;
+  }
+  .fc-item{
+    flex-basis: 33.33%;
+  }
+  .product-gallery{
+    grid-template-columns: auto auto;
+  }
+  .deal-content{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 42px;
+  }
+  .ftco-gallery{
+    grid-template-columns: auto auto auto;
+  }
+  .ftco-item{
+    margin-bottom: 24px;
+  }
+  .ftco-item img{
+    width: 90px;
+  }
+  .form-row{
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+  }
+  .form-control{
+    margin-bottom: 16px;
+    padding: 9px;
+  }
+  .f-left h4{
+    font-size: 23px;
+    line-height: 1.3;
+  }
+  .f-left p{
+    font-size: 15px;
+    margin-bottom: -13px !important;
+  }
+  .footer-content{
+    flex-direction: row;
+  }
+  footer{
+    text-align: left;
+    margin: -42px;
+  }
+  .footer-1, .footer-2, .footer-3, .footer-4{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    margin-left: 42px;
+  }
+  .footer-icon i{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+  }
+  .footer-content h6{
+    font-size: 14px;
+  }
+  .footer-content p{
+    font-size: 12px;
+  }
+  .copyright{
+    font-size: 12px;
+    margin: 41px;
+  }
+  .f-menu li a{
+    font-size: 12px;
+  }
+  .f-menu li{
+    margin-bottom: 10px;
+  }
+  .di-flex{
+    display: block;
+    flex-direction: column;
+  }
+  .second{
+    background-position: inherit;
+  }
+  .fc-item .banner-btn{
+    margin-top: 10px;
+  }
+  .features{
+    padding-top: 70px;
+    padding-bottom: 0px;
+  }
+  .owl-theme .owl-dots{
+    display: none;
+  }
+  .quickView-modal .item-wrapper{
+     width: 200px;
+     padding: 70px;
+  }
+  .product-gallery{
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-top: -24px;
+  }
+  .products{
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+  .product-item{
+    padding: 12px 6px;
+  }
+  .price span{
+    font-size: 15px;
+  }
+  .launch-time div p{
+      font-size: 40px;
+  }
+  .launch-time div span{ 
+      font-size: 10px;
+  }
+  .price span del{
+    font-size: 12px;
+  }
+  .product-item img{
+    width: 160px;
+  }
+  .product-item h6 a{
+    font-size: 12px;
+  }
+  .offer{
+    font-size: 12px;
+  }
+  .section-title h2{
+    font-size: 26px;
+  }
+  .section-title p{
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  .section-title h6{
+    font-size: 14px;
+    line-height: 0.2;
+  }
+  .deal{
+    margin-top: -42px;
+    margin-bottom: 60px;
+  }
+  .testimonial{
+    margin-top: -80px;
+  }
+  .userimg{
+    margin-bottom: 16px;
+  }
+  .testimonial-item p{
+    font-size: 12px;
+    margin-bottom: 26px;
+  }
+  .testimonial-item h4{
+    font-size: 15px;
+  }
+  .testimonial-item h6{
+    font-size: 11px;
+  }
+  .ftco-category{
+    margin-bottom: -60px;
+  }
+  .f-item-gallery{
+    margin: -42px;
+  }
+  .f-item h6{
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .f-item p{
+    font-size: 10px;
+  }
+  .deal-right h3{
+    font-size: 23px !important;
+  }
+  .deal-right h5{
+    font-size: 19px;
+  }
+  .deal-right h2{
+    font-size: 28px;
+    line-height: 1.3;
+  }
+  .deal-right p{
+    font-size: 15px;
+  }
+  .deal-right h3{
+    font-size: 28px;
+  }
+  .form-group input{
+    font-size: 14px;
+  }
+  .form-row{
+    margin: -18px 25px;
+  }
+  .wrapper{
+    padding: 25px 0px;
+    margin-bottom: 60px;
+  }
+  .btn button{
+    padding: 12px;
+    font-size: 14px;
+  }
+  .d-flex{
+    display: inline-block;
+  }
+  .banner-btn{
+    padding: 11px 14px;
+    font-size: 13px;
+    margin-top: 22px;
+  }
+  .f-item span{
+    height: 90px;
+    width: 90px;
+  }
+  .f-item img{
+    width: 25px;
+    margin-top: 20px;
+  }
+  video{
+    display: none !important;
+  }
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  for all mobile devices
+*/
+
+@media (max-width: 530px) {
+  .container{
+    width: 90%;
+  }
+  /*.navbar{
+    display: none;
+  }*/
+  .first, .middle, .last{
+    display: block;
+    width: 100%;
+    margin-bottom: 13px;
+  }
+  .top-header{
+    padding: 26px 0px;
+  }
+  .top-header span{
+    font-size: 9px;
+  }
+  .banner{
+    height: 50vh;
+  }
+  .banner-content{
+    margin-top: 90px;
+  }
+  .banner-content h1{
+    font-size: 44px;
+  }
+  .banner-content p{
+    font-size: 10px;
+    margin-top: -20px;
+  }
+  .banner-btn{
+    margin-top: -40px;
+  }
+  .f-item-gallery{
+    grid-template-columns: auto;
+  }
+  .f-item{
+    margin-bottom: 24px;
+  }
+  .item-content a{
+    padding: 7px 11px;
+    font-size: 11px;
+  }
+  .item-content img{
+    height: 200px;
+  }
+  .second h3{
+    font-size: 20px;
+  }
+  .second p{
+    font-size: 10px;
+  }
+  .fc-gallery{
+    display: flex;
+    flex-direction: column;
+  }
+  .fc-item{
+    flex-basis: 100%;
+  }
+  .product-gallery{
+    grid-template-columns: auto;
+  }
+  .deal-content{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 42px;
+  }
+  .ftco-gallery{
+    grid-template-columns: auto;
+  }
+  .ftco-item{
+    margin-bottom: 24px;
+  }
+  .ftco-item img{
+    width: 90px;
+  }
+  .form-row{
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+  }
+  .form-control{
+    margin-bottom: 16px;
+    padding: 9px;
+  }
+  .f-left h4{
+    font-size: 20px;
+    line-height: 1.3;
+  }
+  .f-left p{
+    font-size: 12px;
+    margin-bottom: -13px !important;
+  }
+  .footer-content{
+    flex-direction: column;
+  }
+  footer{
+    text-align: left;
+    margin: -42px;
+  }
+  .footer-1, .footer-2, .footer-3, .footer-4{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    text-align: left;
+    margin-left: 42px;
+  }
+  .footer-content h6{
+    font-size: 14px;
+  }
+  .footer-content p{
+    font-size: 12px;
+  }
+  .copyright{
+    font-size: 8px;
+    margin: 41px;
+  }
+  .f-menu li a{
+    font-size: 12px;
+  }
+  .f-menu li{
+    margin-bottom: 10px;
+  }
+  .di-flex{
+    display: block;
+    flex-direction: column;
+  }
+  .second{
+    background-position: inherit;
+  }
+  .features{
+    padding-top: 70px;
+    padding-bottom: 0px;
+  }
+  .owl-theme .owl-dots{
+    display: none;
+  }
+  .quickView-modal .item-wrapper{
+     width: 200px;
+     padding: 70px;
+  }
+  .product-gallery{
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-top: -24px;
+  }
+  .products{
+    margin-top: -50px;
+  }
+  .product-item{
+    padding: 12px 6px;
+  }
+  .price span{
+    font-size: 12px;
+  }
+  .launch-time div p{
+      font-size: 40px;
+  }
+  .launch-time div span{ 
+      font-size: 10px;
+  }
+  .price span del{
+    font-size: 12px;
+  }
+  .product-item img{
+    width: 160px;
+  }
+  .product-item h6 a{
+    font-size: 12px;
+  }
+  .offer{
+    font-size: 12px;
+  }
+  .section-title h2{
+    font-size: 22px;
+  }
+  .section-title p{
+    font-size: 11px;
+    margin-top: 10px;
+  }
+  .section-title h6{
+    font-size: 14px;
+    line-height: 0.2;
+  }
+  .deal{
+    margin-top: -42px;
+  }
+  .testimonial{
+    margin-top: -40px;
+  }
+  .userimg{
+    margin-bottom: 16px;
+  }
+  .testimonial-item p{
+    font-size: 12px;
+    margin-bottom: 26px;
+  }
+  .testimonial-item h4{
+    font-size: 15px;
+  }
+  .testimonial-item h6{
+    font-size: 11px;
+  }
+  .ftco-category{
+    margin: -50px;
+  }
+  .f-item-gallery{
+    margin: -42px;
+  }
+  .f-item h6{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .f-item p{
+    font-size: 8px;
+  }
+  .deal-right h3{
+    font-size: 20px !important;
+  }
+  .deal-right h5{
+    font-size: 15px;
+  }
+  .deal-right h2{
+    font-size: 22px;
+    line-height: 1.3;
+  }
+  .deal-right p{
+    font-size: 11px;
+  }
+  .deal-right h3{
+    font-size: 28px;
+  }
+  .form-group input{
+    font-size: 11px;
+  }
+  .form-row{
+    margin: -18px 25px;
+  }
+  .btn button{
+    padding: 10px;
+    font-size: 11px;
+  }
+  .d-flex{
+    display: inline-block;
+  }
+  .banner-btn{
+    padding: 6px 8px;
+    font-size: 10px;
+  }
+  .f-item span{
+    height: 90px;
+    width: 90px;
+  }
+  .f-item img{
+    width: 25px;
+    margin-top: 20px;
+  }
+  video{
+    display: none;
+  }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+/*@media (min-width: 320px) and (max-width: 480px) {
+  
+
+  
+}
